@@ -46,6 +46,14 @@ När alla fem är klara visas **BINGO – Du klarade dagens fem.**
 
 Årsvyn räknar mot **1 825** (fem handlingar × 365 dagar), visar en värmekarta för alla 25 handlingar och en kedja. En vilodag per vecka bryter inte kedjan. Veckan räknas måndag till söndag.
 
+## Börja om och demoläge
+
+**Meny** ligger uppe till höger.
+
+**Börja om** frågar först. Svarar du ja tas alla sparade dagar bort från telefonen, även demoläget, och brickan är tom igen.
+
+**Demoläge** är till för att visa appen. Där kan du gå till föregående eller nästa låtsasdag, fylla året med exempel och klara dagens fem direkt. Riktiga dagar rörs inte förrän du börjar om. Stäng av demoläget för att komma tillbaka till den vanliga dagen.
+
 ## Data
 
-Historiken sparas i `localStorage` under nyckeln `health-bingo:v1`. Den följer inte med till en annan telefon och försvinner om du rensar webbplatsdata för sidan.
+Historiken sparas i `localStorage` under nyckeln `health-bingo:v1`. Den följer inte med till en annan telefon och försvinner om du rensar webbplatsdata för sidan, eller om du väljer **Börja om** i menyn.
